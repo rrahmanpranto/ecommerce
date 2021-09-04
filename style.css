@@ -4,9 +4,12 @@
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
-#header{
+.header{
     min-height: 100vh;
     width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)), url(img/bg1.jpg);
+    background-position: center;
+    background-size: cover;
     position: relative;
 }
 nav{
@@ -14,7 +17,7 @@ nav{
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
-    background-color: #FFFFFF;
+    background-color: #fff;
 }
 nav img{
     width: 150px;
@@ -28,4 +31,96 @@ nav img{
     display: inline-block;
     padding: 8px 12px;
     position: relative;
+}
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 4px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.4s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: white;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5%;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+.container1{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container1 .image{
+    width: 300px;
+    
+}
+.container1 .mid{
+    padding: 20px;
+}
+.container1 .inside{
+    margin: 20px;
+}
+.container1 .titles{
+    text-align: center;
+    font-weight: 700;
+    border: 1px solid transparent;
+    background-color: white;
+    padding: 7px;
+    margin: auto;
+    z-index: 1;
+    cursor: pointer;
+}
+.container1 .man, .kid, .accessories, .woman{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.container1 .man .inman, .inkid, .inacc, .inwoman{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.titles:hover{
+    background-color: #f44336;
+    color: white;
 }

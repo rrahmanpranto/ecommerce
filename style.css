@@ -102,7 +102,10 @@ nav img{
 }
 .container1 .image{
     width: 300px;
-    
+    transition: transform 0.5s;
+}
+.container1 .image:hover{
+    transform: translateY(-6px);
 }
 .container1 .mid{
     padding: 20px;
@@ -152,4 +155,29 @@ nav img{
     width: 50px;
     border-bottom: none;
     margin:10px auto auto auto;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.small-container .row{
+    display: flex;
+}
+.row .col-1{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.row .col-1:hover{
+    transform: translateY(-6px);
+}
+.col-1 h4{
+    font-weight: normal;
+}
+.rating{
+    color: #ff523b;
 }

@@ -12,6 +12,8 @@
     background-size: cover;
     position: relative;
 }
+
+/* nav start */
 nav{
     display: flex;
     padding: 2% 6%;
@@ -49,6 +51,9 @@ nav img{
 .nav-links ul li:hover::after{
     width: 100%;
 }
+/* nav end */
+
+/* main title start */
 .text-box{
     width: 90%;
     color: white;
@@ -83,6 +88,12 @@ nav img{
     background: #f44336;
     transition: 1s;
 }
+
+/* main title end */
+
+/* container1 start */
+
+
 .container1{
     margin-top: 50px;
     display: flex;
@@ -123,4 +134,22 @@ nav img{
 .titles:hover{
     background-color: #f44336;
     color: white;
+    transition: 1s;
+}
+
+/* container1 end */
+
+/* product section */
+
+.productsection{
+    margin-top: 50px;
+}
+.products{
+    text-align: center;
+}
+.products .superhr{
+    border: 5px solid #f44336;
+    width: 50px;
+    border-bottom: none;
+    margin:10px auto auto auto;
 }

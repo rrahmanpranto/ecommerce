@@ -382,3 +382,28 @@ nav img{
 .inside-shop .filters a{
     color: black;
 }
+/* filter end */
+
+/* buttons */
+
+.num-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px 0 80px;
+}
+.num-buttons ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 5px;
+}
+.num-buttons ul li a{
+    background: #f44336;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid #f44336;
+    padding: 10px;
+}
+/* buttons end */

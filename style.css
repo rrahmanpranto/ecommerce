@@ -599,3 +599,73 @@ nav img{
 }
 
 /* contact end */
+
+/* single product details */
+
+.single-product{
+    margin-top: 80px;
+}
+/* .single-product .col-2 img{
+    padding: 0;
+}
+.single-product .col-2{
+    padding: 20px;
+}
+.single-product h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+} */
+.single{
+    text-align: center;
+    margin: auto;
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.single-2{
+    text-align: left;
+    flex-basis: 50%;
+}
+.single-2 img{
+    padding: 0;
+}
+.single-product .single-2{
+    padding: 10px;
+}
+.single-product .single-2 h1{
+    padding-left: 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.single-product .single-2 h4{
+    padding-bottom: 10px;
+}
+.single-product .single-2 h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cart-btn{
+    border: 1px solid #f44336;
+    background: #f44336;
+    color: #fff;
+    padding: 7px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.single-product .single-2 select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    
+}
+.single-product .single-2 input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+}

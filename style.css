@@ -365,6 +365,7 @@ nav img{
     font-weight: lighter;
     color: #fff;
     cursor: pointer;
+    padding-top: 20px;
 }
 /* shop header end */
 
@@ -473,3 +474,20 @@ nav img{
     background: #f44336;
     transition: 1s;
 }
+/* page end */
+
+/* blog */
+
+.blog-list{
+    margin: 100px 50px;
+}
+.blog-list .first-blog{
+    text-align: center;
+}
+.first-blog h2, p, a{
+    text-align: left;
+}
+
+
+
+/* blog end */

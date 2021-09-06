@@ -340,6 +340,11 @@ nav img{
 
 /* shop */
 
+.small-container a{
+    text-decoration: none;
+    color: black;
+}
+
 .shop-header{
     min-height: 50vh;
     width: 100%;
